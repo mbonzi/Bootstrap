@@ -1,0 +1,46 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', "Paprika", 'Indie Flower';
+}
+
+h1 {
+   -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: darkblue; 
+    color: rgb(2, 65, 2);
+    font-size: 5rem;
+}
+
+h2 {
+    color: rgb(1, 68, 30);
+    text-transform: uppercase;
+}
+
+header h2 {
+    color: rgb(7, 7, 150);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(19, 7, 75, 0.836); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: rgb(4, 107, 49);
+}
+
+footer {
+    background-image: linear-gradient(rgb(56, 236, 110), rgb(184, 243, 199));
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, rgba(10, 248, 10, 0.616), rgb(77, 191, 230), rgb(23, 46, 150));
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
