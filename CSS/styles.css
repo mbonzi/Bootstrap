@@ -29,7 +29,7 @@ h3 {
     color: rgb(8, 107, 49);
 }
 
-footer {
+.site-footer {
     background-image: linear-gradient(rgba(10, 248, 10, 0.616), rgb(77, 191, 230, 0.6));
     padding: 20px 0;
     color: #321cad;
