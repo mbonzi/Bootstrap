@@ -35,12 +35,18 @@ footer {
 }
 
 .jumbotron {
+    margin: 0px;
     padding: 30px;
+    color: white;
     background-image: linear-gradient(to right, rgba(10, 248, 10, 0.616), rgb(77, 191, 230), rgb(23, 46, 150));
 }
 
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
+    border-bottom: 0px ridge;
     min-height: 200px;
+}
+
+.navbar {
+    background-color: #321cad;
 }
