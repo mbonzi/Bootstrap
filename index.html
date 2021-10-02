@@ -106,45 +106,46 @@
             </div>
         </div>
 
-    <!-- Reserve a Campsite Card + Form -->
-    <div class="row row-content">
-        <div class="col-sm-6 mx-auto">
-            <div class="card">
-                <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
-                <div class="card-body">
-                    <form action="">
-                        <div class="row">
-                            <label for="numCampers" class="col-12 col-sm-6 col-form-label">Number of Campers:</label>
-                            <div class="col">
-                                <select name="numCampers" id="numCampers"  class="form-control">
-                                    <option selected>Select...</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                </select>
+        <!-- Reserve a Campsite Card + Form -->
+        <div class="row row-content">
+            <div class="col-sm-6 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+                    <div class="card-body">
+                        <form action="" id="reserveForm">
+                            <div class="form-group row">
+                                <label for="numCampers" class="col-12 col-sm-6 col-form-label">Number of Campers:</label>
+                                <div class="col">
+                                    <select name="numCampers" id="numCampers"  class="form-control">
+                                        <option selected>Select...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="row">
-                            <label for="date" class="col-12 col-sm-6 col-form-label">Date:</label>
-                            <div class="col-12 col-sm-6">
-                                <input type="date" id="date" name="date" placeholder="Date" class="form-control" />
+                            <div class="row form-group">
+                                <label for="date" class="col-12 col-sm-6 col-form-label">Date:</label>
+                                <div class="col-12 col-sm-6">
+                                    <input type="date" id="date" name="date" placeholder="Date" class="form-control" />
+                                </div>
                             </div>
-                        </div>
+                            
+                            <div class="row form-group">
+                                <div class="col">
+                                    <button type="submit" class="btn-primary text-white btn-outline-info">Search</button>
+                                </div>
+                            </div>
 
-                        <div class="row">
-                            <div class="col">
-                                <button type="submit" class="btn bg-info text-white btn-outline-secondary">Search</button>
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </div> 
-    </div>
+            </div> 
+        </div>
     </div>
 
     <!-- Footer containers: Nav, Social, Contacts -->
