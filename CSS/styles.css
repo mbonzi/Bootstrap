@@ -52,8 +52,13 @@ h3 {
     background-color: #321cad;
 }
 
-.tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(8, 107, 49);
 }
