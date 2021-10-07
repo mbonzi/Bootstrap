@@ -62,3 +62,11 @@ a:hover {
     text-decoration: none;
     color: rgb(8, 107, 49);
 }
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.carousel {
+    border: #321cad solid ;
+}
