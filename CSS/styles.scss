@@ -1,0 +1,79 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', "Paprika", 'Indie Flower';
+}
+
+h1 {
+   -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: darkblue; 
+    color: rgb(2, 65, 2);
+    font-size: 5rem;
+}
+
+h2 {
+    color: rgb(1, 68, 30);
+    text-transform: uppercase;
+}
+
+header h2 {
+    color: rgb(7, 7, 150);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(19, 7, 75, 0.836); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: white;
+}
+
+.site-footer {
+    background-image: linear-gradient(rgba(10, 200, 10, 0.616), rgb(77, 191, 230, 0.6));
+    padding: 20px 0;
+    color: #321cad;
+}
+
+.jumbotron {
+    margin: 0px;
+    padding: 30px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(10, 200, 10, 0.616), rgb(77, 191, 230), #321cad);
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 0px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #321cad;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(8, 107, 49);
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.carousel {
+    border: #321cad solid ;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
