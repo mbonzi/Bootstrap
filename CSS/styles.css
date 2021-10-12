@@ -70,3 +70,10 @@ a:hover {
 .carousel {
     border: #321cad solid ;
 }
+
+#caourselbtn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
