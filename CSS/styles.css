@@ -7,21 +7,17 @@ h1, h2, h3 {
 }
 
 h1 {
-   -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: darkblue; 
-    color: rgb(2, 65, 2);
+    color: white;
     font-size: 5rem;
 }
 
 h2 {
-    color: rgb(1, 68, 30);
+    color: #3046c5;
     text-transform: uppercase;
 }
 
 header h2 {
-    color: rgb(7, 7, 150);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(19, 7, 75, 0.836); 
+    color: #cec8ff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -30,16 +26,15 @@ h3 {
 }
 
 .site-footer {
-    background-image: linear-gradient(rgba(10, 200, 10, 0.616), rgb(77, 191, 230, 0.6));
+    background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
-    color: #321cad;
 }
 
 .jumbotron {
     margin: 0px;
     padding: 30px;
     color: white;
-    background-image: linear-gradient(to right, rgba(10, 200, 10, 0.616), rgb(77, 191, 230), #321cad);
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
 }
 
 .row-content {
@@ -49,7 +44,7 @@ h3 {
 }
 
 .navbar {
-    background-color: #321cad;
+    background-color: #901CAD;
 }
 
 a {
@@ -60,15 +55,15 @@ a {
 a:hover {
     cursor: pointer;
     text-decoration: none;
-    color: rgb(8, 107, 49);
+    color: #CEC8FF;
 }
 
 .carousel-caption {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .carousel {
-    border: #321cad solid ;
+    border: solid #5637DD;
 }
 
 #carouselButton {
