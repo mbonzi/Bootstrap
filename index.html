@@ -38,7 +38,7 @@
                     <h2>A better way to camp</h2>
                 </div>
                 <div class="col col-md-4 col-xl-2 mt-4">
-                    <a class="btn btn-info btn-outline-success text-white btn-lg text-nowrap" data-toggle="modal" role="button" data-target="#reserveModal" >Reserve Campsite</a>
+                    <a class="btn btn-info btn-outline-success text-white btn-lg text-nowrap" role="button" id="reserveButton" >Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -146,7 +146,7 @@
                     </li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" data-target="#loginButton">
                         <i class="fa fa-sign-in"></i>
                         Login
                     </a>
@@ -155,13 +155,13 @@
         </div>
     </nav>
 
-    <!-- login modal -->
-    <div id="loginModal" class="modal fade" role="dialog">
+    <!-- login modal/button -->
+    <div id="loginButton" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">Login</h3>
-                    <button type="button" class="close" data-dismiss="modal">
+                    <button type="button" class="close" >
                         &times;
                     </button>
                 </div>
@@ -176,7 +176,9 @@
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <label for="loginPassword" class="sr-only">Password</label>
+                                    <label for="loginPassword" class="sr-only">
+                                        Password
+                                    </label>
                                     <input type="password" id="loginPassword" class="form-control form-control-sm" placeholder="Password">
                                 </div>
 
@@ -189,7 +191,7 @@
 
                             </div>
                             <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" >
                                     Cancel
                                 </button>
                                 <button type="submit" class="btn btn-primary btn-sm ml-1">
